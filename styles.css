@@ -27,3 +27,35 @@
   width: 100%;
   height: 100%;
 }
+
+.title {
+  margin: 0 auto;
+  min-height: 50vh;
+}
+
+.footer-content {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid gray;
+  padding: 1rem;
+}
+
+
+@media (max-width: 640px) {
+  .youtube-player {
+    padding-bottom: 80%; 
+  }
+  nav {
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 0 0 1rem 0;
+  }
+  .container {
+    padding: 0.2rem;
+  }
+  .title {
+  padding: 0.5rem 0;
+}
+}
